@@ -7,8 +7,15 @@
 	--color-left-bar: #051e34;
 	--color-white: #ffffff;
 }
+body{
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+}
 .jw-debug{
     border: 1px solid red;
+}
+header{
+    z-index: 5000;
 }
 /* container */
 .ldg-wrapper{
