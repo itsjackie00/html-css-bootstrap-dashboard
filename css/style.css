@@ -47,11 +47,7 @@ main{
 main .table img{
     width: 30px;
 }
-main .table .icons{
-    color: #6C757D;
-}
-.border-icons{
-    border: 1px solid #6C757D;
-    padding: 5px;
-    border-radius: 5px;
+#top-bar{
+    padding: 20px 15px;
+    color: white;
 }
