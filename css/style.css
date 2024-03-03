@@ -17,8 +17,17 @@ body{
 .jw-debug{
     border: 1px solid red;
 }
-header{
-    z-index: 5000;
+/* header */
+.input-group{
+    width: 1400px;
+}
+header .icons a{
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
 }
 /* container */
 .ldg-wrapper{
@@ -38,7 +47,7 @@ nav{
     background-color: var(--color-left-bar);
     padding-top: 70px;
 }
-
+/* main */
 main{
     padding-top: 60px;
     height: 100%;

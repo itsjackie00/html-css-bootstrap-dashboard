@@ -25,43 +25,47 @@
 <body>
     <!-- header -->
     <header class="position-fixed top-0 left-0 z-1 w-100 py-2 bg-light">
-        <div class="header-content w-100 bg-white d-flex ">
-            <img src="img/logo.svg" alt="Bolean Logo">
-            <nav class="navbar bg-body-tertiary">
-                <!--  <div class="container-fluid"> -->
-                <div class="input-group flex-nowrap">
-                    <span class="input-group-text" id="addon-wrapping">
-                        <i class="fa-solid fa-magnifying-glass"></i>
-                    </span>
-                    <input type="text" class="form-control" aria-label="Username" aria-describedby="addon-wrapping">
-                </div>
-
-                <!--  <ul class="d-flex flex-wrap">
-                        <li>
-                            <a href="#">
-                                <i class="fa-solid fa-list-ul"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <i class="fa-solid fa-circle-question"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <i class="fa-solid fa-ellipsis-vertical"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <i class="fa-solid fa-bell" style="color: #FFD43B;"></i>
-                            </a>
-                        </li>
-                    </ul> -->
-        </div>
-        </nav>
+        <div class="container-fluid flex-wrap ">
+            <div class="header-content w-100 bg-white  d-flex ">
+                <img src="img/logo.svg" alt="Bolean Logo">
+                <form>
+                    <div class="navbar">
+                        <div class="input-group px-3">
+                            <span class="input-group-text" id="basic-addon1">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </span>
+                            <input type="text" class="form-control bg-body-secondary" placeholder="Prova a cercare: Lezione di Laravel"   aria-label="Username"
+                                aria-describedby="basic-addon1">
+                        </div>
+                </form>
+            </div>
+            <div>
+                <ul class="d-flex icons text-decoration-none">
+                    <li>
+                        <a href="#">
+                            <i class="fa-solid fa-list-ul text-body-secondary"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-solid fa-circle-question text-body-secondary"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-solid fa-ellipsis-vertical text-body-secondary"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-solid fa-bell" style="color: #FFD43B;"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </header>
+    <!-- wrapper -->
     <div class="wrapper vh-100 w-100 d-flex">
         <!-- sidebar -->
         <nav class="d-flex flex-column" id="main-nav">
