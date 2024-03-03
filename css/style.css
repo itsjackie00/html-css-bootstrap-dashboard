@@ -53,6 +53,11 @@ main{
     height: 100%;
     width: calc(100% - 50px);
 }
+/* card main header */
+main .card-body{
+    right: 0;
+    height: 100%;
+}
 #top-bar{
     padding: 20px 15px;
     color: white;
